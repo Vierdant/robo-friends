@@ -1,0 +1,27 @@
+.card {
+    display: grid;
+    background-color: rgb(147, 224, 147);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px black;
+    transition: transform 0.1s linear;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card > img {
+    width: 150;
+    height: 150px;
+}
+
+.card > div > h2 {
+    font-size: 0.8em;
+}
+
+.card > div > p {
+    font-size: 0.8em;
+}
